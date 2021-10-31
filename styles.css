@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/Rubik-VariableFont_wght.ttf");
+  font-weight: 300 900;
+}
+
+body {
+  font-size: 16px;
+  font-family: Rubik;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  transition: all 0.1s ease-out;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  border-bottom: 3px solid purple;
+}
