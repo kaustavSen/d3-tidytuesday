@@ -9,7 +9,12 @@
   <body>
     <h1><span>Ultra Trail Running:</span> Top Finish times over the years</h1>
     <h2><span id="event"></span> | <span id="race"></span></h2>
-    <div id="wrapper" class="svg-container"></div>
+    <div id="wrapper">
+      <div id="tooltip" class="tooltip">
+        <b>Year:</b> <span class="year"></span><br>
+        <b>Time:</b> <span class="time"></span>
+      </div>
+    </div>
     <script src="https://unpkg.com/d3@7.1.1/dist/d3.min.js"></script>
     <script src="chart.js"></script>
   </body>
