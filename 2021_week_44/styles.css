@@ -61,7 +61,7 @@ button {
   margin-top: 10px;
   padding: 0.5em 1em;
   appearance: none;
-  background:#f4a261;
+  background: #f4a261;
   color: white;
   border: none;
   box-shadow: 0 5px 0 0 #f4a361b9;
@@ -74,14 +74,14 @@ button {
 
 button:hover,
 button:focus {
-    background: #f4a261;
-    box-shadow: 0 4px 0 0 #f4a361b9;
-    transform: translateY(1px);
+  background: #f4a261;
+  box-shadow: 0 4px 0 0 #f4a361b9;
+  transform: translateY(1px);
 }
 
 button:hover:active,
 button:focus:active,
 button:active {
-    box-shadow: 0 1px 0 0 #f4a361b9;
-    transform: translateY(4px);
+  box-shadow: 0 1px 0 0 #f4a361b9;
+  transform: translateY(4px);
 }

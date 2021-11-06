@@ -15,7 +15,7 @@ const drawChart = async () => {
   const axisPadding = 10;
 
   let dimensions = {
-    width: window.innerWidth * 0.8,
+    width: 1200,
     height: 400,
     margin: { top: 10, right: 20, bottom: 30, left: 70 },
   };
@@ -29,8 +29,8 @@ const drawChart = async () => {
   const wrapper = d3
     .select("#wrapper")
     .append("svg")
-    .attr("width", dimensions.width)
-    .attr("height", dimensions.height);
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", `0 0 ${dimensions.width} ${dimensions.height}`);
 
   const bounds = wrapper
     .append("g")
